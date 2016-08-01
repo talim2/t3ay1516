@@ -8,22 +8,12 @@ public class Item {
     private String itemdescription;
     private String itemtype;
     private float price;
-    private String UOM;
 
-    public Item(int itemid, String itemdescription, float price, String itemtype, String UOM) {
+    public Item(int itemid, String itemdescription, float price, String itemtype) {
         this.itemid = itemid;
         this.itemdescription = itemdescription;
         this.price = price;
         this.itemtype = itemtype;
-        this.UOM = UOM;
-    }
-
-    public String getUOM() {
-        return UOM;
-    }
-
-    public void setUOM(String UOM) {
-        this.UOM = UOM;
     }
 
     public int getItemid() {
